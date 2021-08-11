@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block title %}
-{{ title }} :: {{ block.super }}
+{{ item_news.title }} :: {{ block.super }}
 {% endblock %}
 
 {% block sidebar %}
@@ -10,7 +10,6 @@
 
 {% block content %}
 
-{% for item_news in news %}
 <div class="card mb-3">
     <div class="card-header">
         Категория: <a href="{{ item_news.category.get_absolute_url }}">{{ item_news.category }}</a>
@@ -24,8 +23,7 @@
             {% endif %}
             <div class="media-body">
                 <h5 class="card-title">{{ item_news.title }}</h5>
-                <p class="card-text">{{ item_news.content|linebreaks|truncatewords:50 }}</p>
-                <a href="{{ item_news.get_absolute_url }}" class="btn btn-primary">Показать</a>
+                <p class="card-text">{{ item_news.content|linebreaks }}</p>
             </div>
         </div>
     </div>
@@ -33,7 +31,6 @@
         {{ item_news.created_at|date:'Y.m.d H:i' }}
     </div>
 </div>
-{% endfor %}
 
 {% endblock %}
 
