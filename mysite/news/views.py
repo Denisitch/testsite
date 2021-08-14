@@ -19,7 +19,6 @@ def get_category(request, category_id):
 
 
 def view_news(request, news_id):
-    # item_news = News.objects.get(pk=news_id)
     item_news = get_object_or_404(News, pk=news_id)
     return render(request, 'news/view_news.html', {'item_news': item_news})
 
@@ -28,8 +27,7 @@ def add_news(request):
     if request.method == 'POST':
         form = NewsForm(request.POST)
         if form.is_valid():
-            # print(form.cleaned_data)
-            news = News.objects.create(**form.cleaned_data)
+            news = form.save()
             return redirect(news)
     else:
         form = NewsForm()

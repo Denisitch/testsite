@@ -31,7 +31,6 @@ class News(models.Model):
     category = models.ForeignKey(
         to='Category',
         on_delete=models.PROTECT,
-        null=True,
         verbose_name='Категория'
     )
 
