@@ -1,6 +1,15 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from news.models import News, Category
 from news.forms import NewsForm
+from django.core.paginator import Paginator
+
+
+def pagination(request):
+    objects = News.objects.all()
+    paginator = Paginator(objects, 2)
+    page_num = request.GET.get('page', 1)
+    page_objects = paginator.get_page(page_num)
+    return render(request, 'news/pagination.html', {'page_obj': page_objects})
 
 
 def index(request):
