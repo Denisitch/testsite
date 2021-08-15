@@ -31,7 +31,8 @@ class News(models.Model):
     category = models.ForeignKey(
         to='Category',
         on_delete=models.PROTECT,
-        verbose_name='Категория'
+        verbose_name='Категория',
+        # related_name='get_news'
     )
 
     def get_absolute_url(self):
