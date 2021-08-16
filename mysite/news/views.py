@@ -9,6 +9,7 @@ class HomeNews(MyMixin, ListView):
     model = News
     template_name = 'news/index.html'
     context_object_name = 'news'
+    paginate_by = 2
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(HomeNews, self).get_context_data(**kwargs)
@@ -24,6 +25,7 @@ class NewsByCategory(MyMixin, ListView):
     template_name = 'news/index.html'
     context_object_name = 'news'
     allow_empty = False
+    paginate_by = 2
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(NewsByCategory, self).get_context_data(**kwargs)
@@ -38,8 +40,7 @@ class ViewNews(LoginRequiredMixin, DetailView):
     model = News
     template_name = 'news/view_news.html'
     context_object_name = 'item_news'
-    # login_url = '/admin/'
-    raise_exception = True
+    login_url = '/admin/'
 
 
 class CreateNews(CreateView):

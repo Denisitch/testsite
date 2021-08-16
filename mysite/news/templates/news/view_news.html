@@ -16,9 +16,9 @@
     </div>
     <div class="card-body">
         {% if item_news.photo %}
-        <img src="{{ item_news.photo.url }}" alt="" width="350" class="float-left mr-3">
+        <img src="{{ item_news.photo.url }}" alt="" width="200" class="float-left mr-3" align="left" vspace="5" hspace="5">
         {% else %}
-        <img src="https://st2.depositphotos.com/3223379/5688/i/600/depositphotos_56880225-stock-photo-words-news.jpg" alt="" width="350" class="float-left mr-3">
+        <img src="https://st2.depositphotos.com/3223379/5688/i/600/depositphotos_56880225-stock-photo-words-news.jpg" alt="" width="200" class="float-left mr-3" align="left" vspace="5" hspace="5">
         {% endif %}
             <h5 class="card-title">{{ item_news.title }}</h5>
             <p class="card-text">{{ item_news.content|linebreaks }}</p>
