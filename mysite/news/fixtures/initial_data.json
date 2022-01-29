@@ -1,0 +1,212 @@
+[
+  {
+    "model": "news.news",
+    "pk": 1,
+    "fields": {
+      "title": "Новость 1",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.\r\n\r\nProin facilisis enim pharetra pulvinar iaculis. Aenean tempus risus a elit pulvinar, ac facilisis ex consequat. Ut feugiat vel odio in accumsan. Nullam fringilla massa ac porttitor sollicitudin. Donec feugiat, neque vitae mattis eleifend, nisl lacus elementum erat, eget porta nisl mi quis tortor. Duis vel dui sit amet ex semper lacinia. Donec finibus tristique lorem at rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\r\n\r\nVivamus id ante eu ipsum consequat feugiat et in erat. Nulla sed porttitor sem. Phasellus felis ex, dictum vitae enim vitae, volutpat bibendum lacus. Praesent dignissim a tellus at ultricies. Praesent vehicula lobortis magna auctor ullamcorper. Etiam vestibulum est ac nibh rhoncus, quis aliquet purus semper. Aliquam scelerisque nisi ex, vel auctor orci ullamcorper ut.",
+      "created_at": "2021-08-03T19:55:33.749Z",
+      "updated_at": "2021-08-15T06:14:23.923Z",
+      "photo": "photos/2021/08/15/Культура.jpg",
+      "is_published": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 2,
+    "fields": {
+      "title": "Новость 2",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.\r\n\r\nProin facilisis enim pharetra pulvinar iaculis. Aenean tempus risus a elit pulvinar, ac facilisis ex consequat. Ut feugiat vel odio in accumsan. Nullam fringilla massa ac porttitor sollicitudin. Donec feugiat, neque vitae mattis eleifend, nisl lacus elementum erat, eget porta nisl mi quis tortor. Duis vel dui sit amet ex semper lacinia. Donec finibus tristique lorem at rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\r\n\r\nVivamus id ante eu ipsum consequat feugiat et in erat. Nulla sed porttitor sem. Phasellus felis ex, dictum vitae enim vitae, volutpat bibendum lacus. Praesent dignissim a tellus at ultricies. Praesent vehicula lobortis magna auctor ullamcorper. Etiam vestibulum est ac nibh rhoncus, quis aliquet purus semper. Aliquam scelerisque nisi ex, vel auctor orci ullamcorper ut.",
+      "created_at": "2021-08-03T19:58:53.922Z",
+      "updated_at": "2021-08-07T17:44:20.186Z",
+      "photo": "",
+      "is_published": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 3,
+    "fields": {
+      "title": "Новость 3",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.\r\n\r\nProin facilisis enim pharetra pulvinar iaculis. Aenean tempus risus a elit pulvinar, ac facilisis ex consequat. Ut feugiat vel odio in accumsan. Nullam fringilla massa ac porttitor sollicitudin. Donec feugiat, neque vitae mattis eleifend, nisl lacus elementum erat, eget porta nisl mi quis tortor. Duis vel dui sit amet ex semper lacinia. Donec finibus tristique lorem at rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\r\n\r\nVivamus id ante eu ipsum consequat feugiat et in erat. Nulla sed porttitor sem. Phasellus felis ex, dictum vitae enim vitae, volutpat bibendum lacus. Praesent dignissim a tellus at ultricies. Praesent vehicula lobortis magna auctor ullamcorper. Etiam vestibulum est ac nibh rhoncus, quis aliquet purus semper. Aliquam scelerisque nisi ex, vel auctor orci ullamcorper ut.",
+      "created_at": "2021-08-03T20:01:14.984Z",
+      "updated_at": "2021-08-15T06:14:35.904Z",
+      "photo": "photos/2021/08/15/Спорт.jpg",
+      "is_published": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 4,
+    "fields": {
+      "title": "Новость 4",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.\r\n\r\nProin facilisis enim pharetra pulvinar iaculis. Aenean tempus risus a elit pulvinar, ac facilisis ex consequat. Ut feugiat vel odio in accumsan. Nullam fringilla massa ac porttitor sollicitudin. Donec feugiat, neque vitae mattis eleifend, nisl lacus elementum erat, eget porta nisl mi quis tortor. Duis vel dui sit amet ex semper lacinia. Donec finibus tristique lorem at rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\r\n\r\nVivamus id ante eu ipsum consequat feugiat et in erat. Nulla sed porttitor sem. Phasellus felis ex, dictum vitae enim vitae, volutpat bibendum lacus. Praesent dignissim a tellus at ultricies. Praesent vehicula lobortis magna auctor ullamcorper. Etiam vestibulum est ac nibh rhoncus, quis aliquet purus semper. Aliquam scelerisque nisi ex, vel auctor orci ullamcorper ut.",
+      "created_at": "2021-08-03T20:03:13.702Z",
+      "updated_at": "2021-08-11T19:09:51.052Z",
+      "photo": "photos/2021/08/11/Политика.jpg",
+      "is_published": true,
+      "category": 3
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 5,
+    "fields": {
+      "title": "Новость 5",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.\r\n\r\nProin facilisis enim pharetra pulvinar iaculis. Aenean tempus risus a elit pulvinar, ac facilisis ex consequat. Ut feugiat vel odio in accumsan. Nullam fringilla massa ac porttitor sollicitudin. Donec feugiat, neque vitae mattis eleifend, nisl lacus elementum erat, eget porta nisl mi quis tortor. Duis vel dui sit amet ex semper lacinia. Donec finibus tristique lorem at rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\r\n\r\nVivamus id ante eu ipsum consequat feugiat et in erat. Nulla sed porttitor sem. Phasellus felis ex, dictum vitae enim vitae, volutpat bibendum lacus. Praesent dignissim a tellus at ultricies. Praesent vehicula lobortis magna auctor ullamcorper. Etiam vestibulum est ac nibh rhoncus, quis aliquet purus semper. Aliquam scelerisque nisi ex, vel auctor orci ullamcorper ut.",
+      "created_at": "2021-08-03T20:04:46.026Z",
+      "updated_at": "2021-08-16T17:39:56.579Z",
+      "photo": "photos/2021/08/15/Наука.jpg",
+      "is_published": true,
+      "category": 4
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 6,
+    "fields": {
+      "title": "Новость из админки",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.\r\n\r\nProin facilisis enim pharetra pulvinar iaculis. Aenean tempus risus a elit pulvinar, ac facilisis ex consequat. Ut feugiat vel odio in accumsan. Nullam fringilla massa ac porttitor sollicitudin. Donec feugiat, neque vitae mattis eleifend, nisl lacus elementum erat, eget porta nisl mi quis tortor. Duis vel dui sit amet ex semper lacinia. Donec finibus tristique lorem at rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\r\n\r\nVivamus id ante eu ipsum consequat feugiat et in erat. Nulla sed porttitor sem. Phasellus felis ex, dictum vitae enim vitae, volutpat bibendum lacus. Praesent dignissim a tellus at ultricies. Praesent vehicula lobortis magna auctor ullamcorper. Etiam vestibulum est ac nibh rhoncus, quis aliquet purus semper. Aliquam scelerisque nisi ex, vel auctor orci ullamcorper ut.",
+      "created_at": "2021-08-07T13:32:42.529Z",
+      "updated_at": "2021-08-07T17:44:40.861Z",
+      "photo": "photos/2021/08/07/Политика.jpg",
+      "is_published": true,
+      "category": 3
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 7,
+    "fields": {
+      "title": "Новость из формы",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.",
+      "created_at": "2021-08-14T10:35:51.161Z",
+      "updated_at": "2021-08-14T10:35:51.161Z",
+      "photo": "",
+      "is_published": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 8,
+    "fields": {
+      "title": "Новость из формы 2",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.",
+      "created_at": "2021-08-14T10:37:55.223Z",
+      "updated_at": "2021-08-14T10:37:55.223Z",
+      "photo": "",
+      "is_published": true,
+      "category": 4
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 9,
+    "fields": {
+      "title": "Новость из формы 3",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.",
+      "created_at": "2021-08-14T10:38:32.878Z",
+      "updated_at": "2021-08-15T06:15:23.162Z",
+      "photo": "photos/2021/08/15/Культура_jn0vjM0.jpg",
+      "is_published": true,
+      "category": 1
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 10,
+    "fields": {
+      "title": "Новость из формы 4",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.\r\n\r\nProin facilisis enim pharetra pulvinar iaculis. Aenean tempus risus a elit pulvinar, ac facilisis ex consequat. Ut feugiat vel odio in accumsan. Nullam fringilla massa ac porttitor sollicitudin. Donec feugiat, neque vitae mattis eleifend, nisl lacus elementum erat, eget porta nisl mi quis tortor. Duis vel dui sit amet ex semper lacinia. Donec finibus tristique lorem at rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "created_at": "2021-08-14T11:23:44.707Z",
+      "updated_at": "2021-08-14T11:23:44.707Z",
+      "photo": "",
+      "is_published": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 11,
+    "fields": {
+      "title": "Новость из формы 5",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.\r\n\r\nProin facilisis enim pharetra pulvinar iaculis. Aenean tempus risus a elit pulvinar, ac facilisis ex consequat. Ut feugiat vel odio in accumsan. Nullam fringilla massa ac porttitor sollicitudin. Donec feugiat, neque vitae mattis eleifend, nisl lacus elementum erat, eget porta nisl mi quis tortor. Duis vel dui sit amet ex semper lacinia. Donec finibus tristique lorem at rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "created_at": "2021-08-14T11:30:49.636Z",
+      "updated_at": "2021-08-14T11:30:49.636Z",
+      "photo": "",
+      "is_published": true,
+      "category": 4
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 12,
+    "fields": {
+      "title": "Новость из формы 6",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.\r\n\r\nProin facilisis enim pharetra pulvinar iaculis. Aenean tempus risus a elit pulvinar, ac facilisis ex consequat. Ut feugiat vel odio in accumsan. Nullam fringilla massa ac porttitor sollicitudin. Donec feugiat, neque vitae mattis eleifend, nisl lacus elementum erat, eget porta nisl mi quis tortor. Duis vel dui sit amet ex semper lacinia. Donec finibus tristique lorem at rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "created_at": "2021-08-14T12:07:06.423Z",
+      "updated_at": "2021-08-16T17:39:56.437Z",
+      "photo": "photos/2021/08/15/Политика.jpg",
+      "is_published": true,
+      "category": 3
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 13,
+    "fields": {
+      "title": "Новость из формы 7",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.",
+      "created_at": "2021-08-14T18:01:06.914Z",
+      "updated_at": "2021-08-15T06:15:07.935Z",
+      "photo": "photos/2021/08/15/Наука_ZVG2FAM.jpg",
+      "is_published": true,
+      "category": 4
+    }
+  },
+  {
+    "model": "news.news",
+    "pk": 14,
+    "fields": {
+      "title": "Новость из формы 8",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae elit nisi. Morbi sollicitudin eget odio a euismod. Sed semper nec nunc egestas vehicula. Sed posuere maximus euismod. Vivamus sollicitudin, leo eu dapibus pretium, lorem nibh venenatis tortor, ut cursus massa nibh nec magna. Duis pellentesque congue pretium. Mauris et erat urna. Suspendisse placerat suscipit arcu sit amet ultricies. Donec eget semper mi. Nulla elementum sit amet arcu id suscipit. Donec non viverra quam. Quisque sollicitudin ante in ultricies pulvinar. Vivamus at tincidunt dui. Cras pharetra ligula elit, vitae interdum nunc placerat quis. Aliquam sollicitudin tortor vehicula, porttitor augue at, pellentesque nibh. Integer vitae elit viverra, semper risus a, tempus nulla.",
+      "created_at": "2021-08-14T18:05:39.511Z",
+      "updated_at": "2021-08-15T06:15:02.019Z",
+      "photo": "photos/2021/08/15/Спорт_CDL2t1R.jpg",
+      "is_published": true,
+      "category": 2
+    }
+  },
+  {
+    "model": "news.category",
+    "pk": 1,
+    "fields": {
+      "title": "Культура"
+    }
+  },
+  {
+    "model": "news.category",
+    "pk": 2,
+    "fields": {
+      "title": "Спорт"
+    }
+  },
+  {
+    "model": "news.category",
+    "pk": 3,
+    "fields": {
+      "title": "Политика"
+    }
+  },
+  {
+    "model": "news.category",
+    "pk": 4,
+    "fields": {
+      "title": "Наука"
+    }
+  }
+]

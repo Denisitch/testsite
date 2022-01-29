@@ -1,0 +1,9 @@
+.env
+.md
+.yml
+.git
+.idea
+README.md
+Dockerfile
+venv
+db.sqlite3
