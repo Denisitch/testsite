@@ -8,8 +8,12 @@ services:
     image: &mysite mysite
     ports:
       - 8000:8000
+    volumes:
+      - ./mysite:/mysite
+    env_file:
+      - .env
     command: >
-      sh -c ' python manage.py runserver 0.0.0.0:8000'
+      sh -c 'python manage.py runserver 0.0.0.0:8000'
     links:
       - db
     depends_on:
@@ -20,9 +24,9 @@ services:
     volumes:
       - db-data:/var/lib/db
     environment:
-      - POSTGRES_DB=db_name
-      - POSTGRES_USER=db_user
-      - POSTGRES_PASSWORD=db_pass
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
     ports:
       - 5432:5432
 
